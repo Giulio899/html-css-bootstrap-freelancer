@@ -133,8 +133,29 @@ header .jumbotron p {
 
 /* Inizio stripe 2 */
 #stripe2 {
-  background-color: green;
+  background-color: #1ABC9C;
+  color: white;
+}
+
+#stripe2 h2,
+#stripe2 .ms_star {
   text-align: center;
+}
+
+#stripe2 .ms_star {
+  margin-bottom: 20px;
+}
+
+#stripe2 p {
+  margin: 10px 0;
+}
+
+#stripe2 .mc_btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  font-size: 1em;
+  color: white;
+  margin: 20px 0;
 }
 /* /stripe 2 */
 
