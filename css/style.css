@@ -194,25 +194,59 @@ header .jumbotron p {
 
 
 /* Inizio footer */
+footer {
+  color: white;
+}
+
+/* Inizio footer-top */
 footer .footer-top {
-  background-color: pink;
+  background-color: #3a546d;
   text-align: center;
+  padding: 40px 0;
 }
 
+footer .footer-top [class*="col-"] {
+  margin: 15px 0;
+}
+
+footer .footer-top h4 {
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+footer .footer-top span {
+  font-size: 1.1em;
+}
+
+footer .footer-top .ms_social i {
+  font-size: 1.3em;
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+  line-height:50px;
+  margin-right: 10px;
+}
+
+footer .footer-top .ms_social a {
+  color: white;
+}
+
+footer .footer-top span a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+/* /footer-top */
+
+/* Inizio footer-bottom */
 footer .footer-bottom {
-  background-color: blue;
+  background-color: #2c3e50;
   text-align: center;
+  padding: 30px 0;
 }
-
-
-
-
-
-
-
-
-
-
+/* /footer-bottom */
+/* /footer */
 
 
 
@@ -223,20 +257,5 @@ footer .footer-bottom {
     position: relative;
     top: 3px;
   }
-
-}
-
-/* Media query xs */
-@media screen and (min-width: 768px) {
-
-}
-
-/* Media query xs */
-@media screen and (min-width: 992px) {
-
-}
-
-/* Media query xs */
-@media screen and (min-width: 1200px) {
 
 }
