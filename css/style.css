@@ -161,10 +161,37 @@ header .jumbotron p {
 
 /* Inizio stripe 3 */
 #stripe3 {
-  background-color: orange;
+  padding: 30px 0;
+}
+
+#stripe3 .ms_title {
   text-align: center;
 }
+
+#stripe3 .ms_star::before,
+#stripe3 .ms_star::after {
+  background-color: #2c3e50;
+}
+
+#stripe3 form {
+  margin-top: 20px;
+}
+
+#stripe3 form input,
+#stripe3 form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  text-align: left;
+  color: #2c3e50;
+}
+
+#stripe3 .mc_btn {
+  margin-top: 10px;
+}
 /* /stripe 3 */
+
 
 /* Inizio footer */
 footer .footer-top {
