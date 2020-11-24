@@ -128,6 +128,34 @@ header .jumbotron p {
 #stripe1 img {
   width: 100%;
 }
+
+#stripe1 .col-xs-12 {
+  position: relative;
+}
+
+#stripe1 figure {
+  position: relative;
+}
+
+#stripe1 figure::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(0, 0, 0, .4);
+  background-image: url('../img/plus.png');
+  background-size: cover;
+  opacity: 0;
+  transition: opacity .3s;
+  /* z-index: 1; */
+}
+
+#stripe1 figure:hover::before {
+  opacity: 1;
+}
+
 /* /stripe 1 */
 
 
